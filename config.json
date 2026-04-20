@@ -11,8 +11,9 @@
   "area_min": 15,
   "area_max": null,
 
-  "telegram_token":   "8726462704:AAHrwDERqgXxycWlSL4mnyLUp-bsBfTjzqU",
-  "telegram_chat_id": "534319861",
+  "telegram_token":   "",
+  "telegram_chat_id": "",
+  "skip_owner_filter": true,
 
   "filters": {
     "districts": ["Калининский", "Красногвардейский", "Приморский", "Выборгский"],
