@@ -91,11 +91,11 @@ def build_rss_url(cfg):
     city = cfg["city"]
     pmax = cfg["price_max_capital"]
     params = {
-        "s":       104,
-        "owner[]": "private",
-        "pmax":    pmax,
-        "format":  "rss",
+        "s":      104,
+        "pmax":   pmax,
+        "format": "rss",
     }
+    # owner[]=private блокируется Авито с облачных IP — убираем
     if cfg.get("area_min"):
         params["minArea"] = cfg["area_min"]
     qs = "&".join(f"{k}={v}" for k, v in params.items())
