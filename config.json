@@ -1,0 +1,37 @@
+{
+  "_comment": "Настройки бота — не удаляй поле _comment",
+
+  "city":             "sankt-peterburg",
+  "schedule_time":    "10:00",
+  "top_n":            5,
+
+  "price_max_metal":   300000,
+  "price_max_capital": 700000,
+
+  "area_min": 15,
+  "area_max": null,
+
+  "telegram_token":   "ВСТАВЬ_ТОКЕН_БОТА",
+  "telegram_chat_id": "ВСТАВЬ_СВОЙ_CHAT_ID",
+
+  "filters": {
+    "districts": ["Калининский", "Красногвардейский", "Приморский", "Выборгский"],
+    "garage_types": ["капитальный", "бокс", "металлический"],
+    "purpose": "склад",
+
+    "electricity_required": true,
+    "security_preferred":   true,
+    "owner_only":           true,
+    "exclude_agencies":     true,
+
+    "ownership_types": ["собственность", "гск"],
+    "exclude_no_docs": true,
+    "exclude_snos":    true,
+
+    "min_price_drop_pct": 10,
+    "track_price_drops":  true,
+
+    "photos_required": true,
+    "access_car":      true
+  }
+}
